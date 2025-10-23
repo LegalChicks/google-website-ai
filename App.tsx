@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Breeds from './components/Breeds';
 import PoultryCareGuide from './components/PoultryCareGuide';
 import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 import Order from './components/Order';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         <Breeds />
         <PoultryCareGuide />
         <Testimonials />
+        <FAQ />
         <Order />
         <Contact />
       </main>

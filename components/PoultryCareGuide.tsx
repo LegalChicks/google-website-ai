@@ -1,4 +1,4 @@
-// FIX: Import React to make JSX namespace available.
+// FIX: The 'Cannot find namespace JSX' error is resolved by importing React, which provides the necessary type definitions for JSX.
 import React from 'react';
 
 interface CareTip {
