@@ -1,0 +1,10 @@
+            - name: NPM Worker
+  # You may pin to the exact commit or the version.
+  # uses: mudlabs/npm-worker@6ceacf295586f87609a18f669031808d5eb80280
+  uses: mudlabs/npm-worker@v1.3.0
+  with:
+    # GITHUB_TOKEN or a PAT for the repository
+    token: # optional, default is ${{ github.token }}
+    # A path to the configuration file for the worker
+    config: # optional
+          
